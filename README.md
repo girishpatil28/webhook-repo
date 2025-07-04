@@ -23,3 +23,11 @@ This Flask application receives GitHub webhook events (push, pull request, merge
    cd webhook-repo
 # webhook-repo
 Flask backend and frontend UI.
+
+pip install -r requirements.txt
+
+python app.py
+
+ngrok http 5000
+
+https://your-ngrok-id.ngrok-free.app/webhook
